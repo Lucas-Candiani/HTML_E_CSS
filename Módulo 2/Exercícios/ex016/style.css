@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right,#008F8C,#015958); /*Para fazer o gradiente */
+}
+main {
+    background-color: white;   /*Para fazer a cor do fundo */
+    border-radius: 10px;  /*Para arredondar o quadrado do texto*/
+    box-shadow: 5px 5px 15px #0119199a; /*Para fazer uma sombra no fundo */
+    width: 600px;  /*para centralizar o quadrado */
+    padding: 10px; /*para afastar o texto da borda o quadrado */
+    margin: auto;
+}
+
+h1{
+    color: #0CABA8;
+    text-align: center;
+    text-shadow: 1px 1px 2px #0119199a;
+}
+
+h2{
+    color: #0FC2C0;
+}
+
+p {
+    text-align: justify;
+}
