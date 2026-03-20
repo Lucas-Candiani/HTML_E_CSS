@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none; 
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: yellow
+        }
+
+        a::after {
+            content: " [link]";
+            font-weight: normal;
+            color: rgb(213, 213, 97);
+        }
+
+        .especial {
+            background-color: rgba(255, 0, 0, 0.407);
+        }
+
+        .especial::before {
+            content: "->";
+        }
+
+        .especial::after {
+            content: "<-";
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/Lucas-Candiani/HTML_E_CSS/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/ex016">Repositório Github</a></li>
+        <li><a href="https://www.linkedin.com/in/lucas-candiani-307593346/">Linkedin</a></li>
+        <li class="especial"><a href="https://www.youtube.com/@Luckyz10">Canal do Youtube</a></li>
+    </ul>
+</body>
+</html>
