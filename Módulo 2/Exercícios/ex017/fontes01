@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="css.ico" type="image/x-icon">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+           font-family: Arial,Helvetica, sans-serif;
+           /*
+           Medidas Absolutas:
+           cm, mm, in, px, pt, pc
+
+           Medidas Relativas:
+           em, ex, rem, vw, vh, %
+
+           Geralmente 16px são = 1em. Utilize ou o px ou o em. 
+            */
+
+            font-size: 1em;
+            /* (peso) font-weight: ; temos: ighter normal bold e bolder */
+        }
+        h1 {
+            /*font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            
+            Nós fazemos muito essa combinação de 4 fontes, portanto, existe um shorthand para simplificar essas combinações.
+            Shorthand font
+
+            - font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2{
+            font: bold 2em 'Work Sans'; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis alias consectetur, maiores atque earum et ipsum nemo iste id magni recusandae debitis? Eligendi magni molestias aliquid et possimus quisquam incidunt!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe id ipsa, unde esse officiis dolorum laudantium explicabo dolore tenetur recusandae aspernatur non, numquam voluptatum reprehenderit quos natus, vitae a animi?</p>
+
+</body>
+</html>
